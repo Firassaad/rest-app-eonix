@@ -2,7 +2,7 @@
  si vous n'avez pas consulter les elements httpd.http et schemas.sql dans le dossier resource du projet 
  
  
- ===========================================httpd.http====================================================================
+ ========httpd.http=======
  Get all personnes :
                     GET request    ==>  http://localhost:8080/personnes
 
@@ -27,9 +27,9 @@ Get all personnes :  les variables fn = firstname = prenom || ln = lastname = no
 la base de données choisie est postgresql ,j'ai tourner la base de données un conteneur docker pour plus d'isolation , portabilité et utilisation de votre portabilité
 
 le dossier docker contient un ficher docker compose , il faut juste executer la commande 'docker-compose up' pour construire l'image postgresql et démarer le service et le fichier schemas.sql contient les requettes sql necessaires pour commencer à faire tourner l'application
-=============================================================================================================================
+=============================
 
-===========================================schemas.sql=======================================================================
+=======schemas.sql===========
 
 
 -- creer la base de donnée si n'est pas créee
