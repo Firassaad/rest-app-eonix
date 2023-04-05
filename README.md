@@ -26,9 +26,7 @@ Get all personnes :  les variables fn = firstname = prenom || ln = lastname = no
 
 la base de données choisie est postgresql ,j'ai tourner la base de données un conteneur docker pour plus d'isolation , portabilité et utilisation de votre portabilité
 
-le dossier docker contient un ficher docker compose , il faut juste executer la commande 'docker-compose up' pour construire l'image postgresql et démarer le service 
-
-le ficher schemas.sql contient les requettes sql necessaire pour commencer à faire tourner l'application
+le dossier docker contient un ficher docker compose , il faut juste executer la commande 'docker-compose up' pour construire l'image postgresql et démarer le service et le ficher schemas.sql contient les requettes sql necessaire pour commencer à faire tourner l'application
 =============================================================================================================================
 
 ===========================================schemas.sql=======================================================================
