@@ -43,8 +43,3 @@ insert into personne values (1,'eonix-prenom','eonix-nom');
 
 ou encore on peut ajouter juste dans le fichier application.properties la ligne suivante :
     =>  spring.sql.init.schema-locations=classpath:schemas.sql
-
-
-
-
-jenkins----
